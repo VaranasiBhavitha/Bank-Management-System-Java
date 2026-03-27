@@ -11,8 +11,8 @@ This project is a simple banking application built using Java and Object-Oriente
 
 ## 🧠 Concepts Used
 - Inheritance
-- Classes & Objects
-- Method Implementation
+- Classes and Objects
+- Method Implementation 
 
 ## 🛠️ Technologies Used
 - Java
