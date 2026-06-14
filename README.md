@@ -15,8 +15,5 @@ This project is a simple banking application built using Java and Object-Oriente
 - Method Implementation 
 
 ## 🛠️ Technologies Used
-- Java
+- JAVA
 - OOP
-
-## 👩‍💻 Author
-Varanasi Bhavitha
