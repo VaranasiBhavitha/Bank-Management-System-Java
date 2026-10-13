@@ -2,7 +2,7 @@ import java.util.*;
 import java.io.*;
 class BankAccount {
     String name;
-    double balance1;
+    double balance;
 
     void deposit(double amount) {
     balance += amount;
@@ -20,7 +20,7 @@ class SavingsAccount extends BankAccount {
 
 class CurrentAccount extends BankAccount {
     void withdraw(double amount) {
-        if (amount <= balance1) {
+        if (amount <= balance) {
             balance -= amount;
             System.out.println("Withdrawn: " + amount);
         } else {
@@ -45,7 +45,7 @@ public class Main {
         double bal = sc.nextDouble();
 
         s.name = name;
-        s.balance1 = bal;
+        s.balance = bal;
 
         int choice;
 
